@@ -1,0 +1,15 @@
+// return y consolelog no es lo mismo
+
+function cuidadoConElConsoleLog(nombre) {
+    console.log(nombre);
+    return nombre;
+};
+
+function cuidadoConElConsoleLog(nombre) {
+    console.log(nombre);
+};
+
+function cuidadoConElConsoleLog(nombre) {
+    return nombre;
+};
+
